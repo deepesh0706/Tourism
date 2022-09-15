@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Uttarakhand Tourism</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="Icon" href="favicon.ico">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="font/fonts.css">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar">
+        <div class="container flex">
+            <a href="index.html" class="site-brand">
+                Uttarakhand<span>Tourism</span>
+            </a>
+
+            <button type="button" id="navbar-show-btn" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="navbar-collapse">
+                <button type="button" id="navbar-close-btn" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar  -->
+
+    <!-- header -->
+    <header class="flex">
+        <div class="container">
+            <div class="header-title">
+                <h1>Leave Your Footprints</h1>
+                <p>Uttarakhand, a state in northern India crossed by the Himalayas, is known for its Hindu pilgrimage sites. Rishikesh, a major centre for yoga study. The city hosts the evening Ganga Aarti, a spiritual gathering on the sacred Ganges River. The state's forested Jim Corbett National Park shelters Bengal tigers and other native wildlife.</p>
+            </div>
+            <div class="header-form">
+                <h2>Choose your Travel location:</h2>
+                <form class="flex">
+                    <input type="text" class="form-control" placeholder="Destination name">
+                    <input type="date" class="form-control" placeholder="Date">
+                    <input type="number" class="form-control" placeholder="Price (₹)">
+                    <input type="submit" class="btn" value="Search">
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+    <!-- featured section -->
+    <section id="featured" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">know about some places before your travel</span>
+                <h2 class="lg-title">featured places</h2>
+            </div>
+
+            <div class="featured-row">
+                <div class="featured-item my-2 shadow">
+                    <img src="images/kedarnath.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Char Dham Yatra
+                        </span>
+                        <div>
+                            <p class="text">These four religious centres in Uttarakhand are represented by 
+                                Badrinath (dedicated to Lord Vishnu), Kedarnath (dedicated to Lord 
+                                Shiva), Gangotri (the holy origin of river Ganga) and Yamunotri (the 
+                                holy origin of river Yamuna).
+                                RISHIKESH – KEDARNATH – BADRINATH – RISHIKESH</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="images/Mussorie.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Mussoorie
+                        </span>
+                        <div>
+                            <p class="text">Mussoorie is a hill station and a municipal board in the Dehradun district of the Indian state of Uttarakhand. It is about 35 kilometres from the state capital of Dehradun and 290 km north of the national capital of New Delhi. The hill station is in the foothills of the Garhwal Himalayan range.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="images/gagan-deep-dXqbPIiJvYc-unsplash.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Auli
+                        </span>
+                        <div>
+                            <p class="text">Auli is a Himalayan ski resort and hill station in the north Indian state of Uttarakhand. It’s surrounded by coniferous and oak forests, plus the Nanda Devi and Nar Parvat mountains. A long cable car links Auli to the town of Joshimath.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="images/Tehri.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Tehri
+                        </span>
+                        <div>
+                            <p class="text">Tehri is a city and a municipal board in Tehri Garhwal District in the Indian state of Uttarakhand. It is the administrative headquarters of Tehri Garhwal District. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-item my-2 shadow">
+                    <img src="images/anubhav-rana-58E1ZA9CXBA-unsplash.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            lansdowne
+                        </span>
+                        <div>
+                            <p class="text">Lansdowne is a hill station in the north Indian state of Uttarakhand. It was founded as a military garrison under the British Raj, and the Garhwali Museum traces the history of the Garhwal Rifles regiment, which still trains in the town </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="featured-item my-2 shadow">
+                    <img src="images/mukteshwar.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Mukteshwar
+                        </span>
+                        <div>
+                            <p class="text">Mukteshwar is a village and tourist destination in the Nainital district of Uttarakhand, India. It sits high in the Kumaon Hills at an altitude of 2171 meters, 51 km from Nainital, 72 km from Haldwani, and 343 km from Delhi. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-item my-2 shadow">
+                    <img src="images/avi-theret-2u6eLolV1JY-unsplash.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Dhanaulti
+                        </span>
+                        <div>
+                            <p class="text">Dhanaulti is a hill station situated in the foothills of the Garhwal Himalayan range located 115 km from New Tehri, the district headquarter, 60 km from the hill station of Mussoorie. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="images/timthumb.jfif" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Chakrata 
+                        </span>
+                        <div>
+                            <p class="text">Chakrata is a cantonment town and also a sub district/tehsil, in Dehradun district in the state of Uttarakhand, India.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="images/Ra.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Ranikhet
+                        </span>
+                        <div>
+                            <p class="text">Ranikhet is a hill station in Uttarakhand State, northern India. It’s known for its views of the Himalayas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of featured section -->
+
+    <!-- services section -->
+    <section id="services" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">know about services that we offer</span>
+                <h2 class="lg-title">Our services</h2>
+            </div>
+
+            <div class="services-row">
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-hotel"></i>
+                    </span>
+                    <h3>Luxurious Hotel</h3>
+                    <p class="text"> 
+                        Here we provide the best Hotel details 
+                    </p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </span>
+                    <h3>Trave Guide</h3>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat
+                        velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-money-bill"></i>
+                    </span>
+                    <h3>Suitable Price</h3>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat
+                        velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of services section -->
+
+    <!-- testimonials section -->
+    <section id="testimonials" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">what our clients say about us</span>
+                <h2 class="lg-title">testimonials</h2>
+            </div>
+
+            <div class="test-row">
+                <div class="test-item">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda blanditiis,
+                        asperiores, velit iste eos officiis tempora magni quaerat quo consectetur expedita cum
+                        recusandae facere nam voluptate minus iusto eum. Delectus!</p>
+                    <div class="test-item-info">
+                        <img src="images/test-1.jpg" alt="testimonial">
+                        <div>
+                            <h3>Kevin Wilson</h3>
+                            <p class="text">Trip to Brazil</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed ut dolores tenetur
+                        harum deserunt. Maxime tenetur consectetur recusandae nobis fugit iusto natus quibusdam nulla!
+                    </p>
+                    <div class="test-item-info">
+                        <img src="images/test-2.jpg" alt="testimonial">
+                        <div>
+                            <h3>Ben Davis</h3>
+                            <p class="text">Trip to Maldives</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem sapiente amet
+                        expedita quae autem deleniti quo magni numquam facilis soluta dicta, praesentium ipsum, quos
+                        optio sed quibusdam! Reprehenderit recusandae provident id nemo!</p>
+                    <div class="test-item-info">
+                        <img src="images/test-3.jpg" alt="testimonial">
+                        <div>
+                            <h3>Jaura Jones</h3>
+                            <p class="text">Trip to Thailand</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of testimonials section -->
+
+    <!-- video section -->
+    <section id="video">
+        <div class="video-wrapper flex">
+            <video loop>
+                <source src="videos/video-section.mp4" type="video/mp4">
+            </video>
+            <button type="button" id="play-btn">
+                <i class="fas fa-play"></i>
+            </button>
+        </div>
+    </section>
+    <!-- end of video section -->
+
+    <!-- footer -->
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="site-brand">
+                    Trip<span>Boss</span>
+                </a>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates maiores nam
+                    vitae iusto. Placeat rem sint voluptas natus exercitationem autem quod neque, odit laudantium
+                    reiciendis ipsa suscipit veritatis voluptate.</p>
+            </div>
+
+            <div class="footer-item">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-google-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Popular Places:</h2>
+                <ul>
+                    <li><a href="#">Thailand</a></li>
+                    <li><a href="#">Australia</a></li>
+                    <li><a href="#">Maldives</a></li>
+                    <li><a href="#">Switzerland</a></li>
+                    <li><a href="#">Germany</a></li>
+                </ul>
+            </div>
+
+            <div class="subscribe-form footer-item">
+                <h2>Subscribe for Newsletter!</h2>
+                <form class="flex">
+                    <input type="email" placeholder="Enter Email" class="form-control">
+                    <input type="submit" class="btn" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- js -->
+    <script src="js/script.js"></script>
+    <script>
+        // play/pause video
+        let video = document.querySelector('.video-wrapper video');
+        document.getElementById('play-btn').addEventListener('click', () => {
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        });
+    </script>
+</body>
+
+</html>
